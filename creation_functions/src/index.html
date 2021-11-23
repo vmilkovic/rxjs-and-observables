@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creation Functions</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="my-4">Creation Functions</h2>
+      <button id="trigger" class="btn btn-primary">Trigger</button>
+    </div>
+    <div class="my-4 card">
+      <div class="card-body">
+        <input
+          id="temperature-input"
+          class="form-control"
+          placeholder="Temperature"
+        />
+        <br />
+        <select id="conversion-dropdown" class="form-control">
+          <option value="">Choose conversion</option>
+          <option value="f-to-c">°F -> °C</option>
+          <option value="c-to-f">°C -> °F</option>
+        </select>
+        <br />
+        <p class="card-text" id="result-text">Please fill the above form</p>
+      </div>
+    </div>
+  </body>
+</html>
