@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subjects</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <span class="navbar-brand">Logged in: <span id="logged-in"></span></span>
+    </nav>
+
+    <div class="container">
+      <h2 class="my-4">Subjects</h2>
+
+      <div class="my-4 form-inline">
+        <div class="d-flex">
+          <input id="value-input" class="form-control" type="text" />
+          <button id="emit" class="mx-1 btn btn-secondary">Emit</button>
+        </div>
+      </div>
+
+      <button id="subscribe" class="btn btn-primary">Subscribe</button>
+
+      <div class="my-4 form-inline">
+        <button id="login" class="mr-1 btn btn-primary">Login</button>
+        <button id="logout" class="btn btn-primary">Logout</button>
+      </div>
+
+      <button id="print-state" class="btn btn-secondary">Print state</button>
+    </div>
+  </body>
+</html>
